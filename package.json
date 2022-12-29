@@ -1,0 +1,23 @@
+{
+  "name": "wang-todo-cli",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "todo": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^3.0.2",
+    "inquirer": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "jest": "^24.9.0"
+  }
+}
